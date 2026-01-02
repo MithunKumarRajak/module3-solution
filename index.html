@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Module 3 Solution</title>
+
+    <!-- Bootstrap 3 CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container">
+
+            <div class="navbar-header">
+                <!-- Mobile menu button -->
+                <button type="button" class="navbar-toggle collapsed visible-xs" data-toggle="collapse"
+                    data-target="#mobile-menu">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <!-- Brand name -->
+                <a class="navbar-brand" href="#">Food, LLC</a>
+            </div>
+
+            <!-- Mobile-only dropdown -->
+            <div class="collapse navbar-collapse visible-xs" id="mobile-menu">
+                <ul class="nav navbar-nav text-center">
+                    <li><a href="#chicken">Chicken</a></li>
+                    <li><a href="#beef">Beef</a></li>
+                    <li><a href="#sushi">Sushi</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1 id="top" class="text-center">Our Menu</h1>
+
+    </div>
+
+    <!-- ================= OPTIONAL 3-SECTIONS GRID ================= -->
+    <div class="container">
+        <div class="row">
+
+            <!-- CHICKEN -->
+            <div id="chicken" class="col-md-4 col-sm-6 col-xs-12 menu-section">
+                <h3 class="text-center">Chicken</h3>
+                <p>
+                    Chicken
+                    Grilled Herb Chicken – Tender chicken breast marinated in fresh herbs and olive oil, grilled to
+                    perfection and served with a side of seasonal vegetables.
+                    <br>
+                    Spicy Fried Chicken – Crispy golden chicken coated in a spicy batter, paired with tangy dipping
+                    sauce.
+                    <br>
+                    Butter Garlic Chicken – Juicy chicken pieces simmered in a rich butter-garlic sauce, offering a
+                    melt-in-your-mouth flavor.
+                </p>
+                <a href="#top">Back to Top</a>
+            </div>
+
+            <!-- BEEF -->
+            <div id="beef" class="col-md-4 col-sm-6 col-xs-12 menu-section">
+                <h3 class="text-center">Beef</h3>
+                <p>
+                    Classic Beef Steak – Prime cut beef, flame-grilled and seasoned with cracked pepper and sea salt,
+                    served with mashed potatoes and sautéed greens.
+                    <br>
+                    Beef Stir-Fry – Strips of tender beef tossed with colorful bell peppers, onions, and soy glaze for a
+                    savory bite.<br>
+
+                    Slow-Cooked Beef Curry – Succulent beef cubes simmered in aromatic spices and coconut milk, served
+                    with steamed rice.
+                </p>
+                <a href="#top">Back to Top</a>
+            </div>
+
+            <!-- SUSHI -->
+            <div id="sushi" class="col-md-4 col-sm-12 col-xs-12 menu-section">
+                <h3 class="text-center">Sushi</h3>
+                <p>
+                    California Roll – A refreshing mix of crab, avocado, and cucumber wrapped in seasoned rice and
+                    seaweed.<br>
+
+                    Spicy Tuna Roll – Fresh tuna blended with spicy mayo, rolled with rice and nori for a fiery kick.
+                    <br>
+                    Salmon Nigiri – Hand-pressed sushi rice topped with buttery slices of fresh salmon, lightly brushed
+                    with soy.
+                </p>
+                <a href="#top">Back to Top</a>
+            </div>
+
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+<footer class="footer">
+    <div class="container text-center">
+        <p>&copy; 2024 Food, LLC. All rights reserved.</p>
+    </div>
+</footer>
+
+
+</html>
